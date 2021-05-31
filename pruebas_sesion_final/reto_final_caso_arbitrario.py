@@ -31,7 +31,7 @@ class TestRetoFinalCaso(unittest.TestCase):
         submit_button.click()
         time.sleep(5)
         
-   @unittest.skip("test")
+    @unittest.skip("test")
     def test_reto_final_caso_arbitrario3(self):
         driver = self.driver
         driver.get("https://demoqa.com/webtables")
